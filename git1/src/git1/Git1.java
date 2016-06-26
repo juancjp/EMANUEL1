@@ -5,6 +5,8 @@
  */
 package git1;
 
+import java.util.Scanner;
+
 /**
  *
  * @author john
@@ -16,7 +18,15 @@ public class Git1 {
      */
     public static void main(String[] args) {
         
+        Scanner sc = new Scanner(System.in);
+        int edad;
+        String nombres;
+        
+        
         System.out.println("Hola mundo desde git hub");
+        System.out.println(" Digite su nombre...: ");
+        nombres = sc.next();
+        
     }
     
 }
